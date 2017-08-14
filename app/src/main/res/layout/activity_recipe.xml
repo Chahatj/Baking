@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/ingredients_card_view"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="@dimen/card_view_vertical_margin"
+        android:layout_marginStart="@dimen/card_view_horizontal_margin"
+        android:layout_marginLeft="@dimen/card_view_horizontal_margin"
+        android:layout_marginRight="@dimen/card_view_horizontal_margin"
+        android:layout_marginEnd="@dimen/card_view_horizontal_margin">
+
+        <TextView
+            android:id="@+id/ingredient_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="@android:color/black"
+            android:text="@string/ingredients"/>
+
+    </android.support.v7.widget.CardView>
+
+    <FrameLayout android:id="@+id/recipeContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+    </FrameLayout>
+
+</LinearLayout>
+
+
+    
+

@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Baking</string>
+    <string name="baking_card_text">Nutella Pie</string>
+    <string name="ingredients">Recipe Ingredients</string>
+    <string name="recipe_card_text">Recipe Introduction</string>
+    <string name="recipe_step">Recipe Steps:</string>
+    <string name="quantity">Quantity:</string>
+    <string name="measure">Measure:</string>
+    <string name="ingredient">Ingredients:</string>
+    <string name="recipe_detail">Recipe Detail</string>
+    <string name="previous">Previous</string>
+    <string name="next">Next</string>
+    <string name="recipe_image">Recipe Image</string>
+    <string name="step_image">Step Image</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+    <string name="find_your_recipe">Find your Recipe</string>
+    <string name="recipe_ingredient">Recipe Ingredient</string>
+    <string name="error_message">Something wrong, Please try again</string>
+</resources>

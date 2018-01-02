@@ -21,6 +21,12 @@ jobs:
           name: Run Tests
           command: ./gradlew lint test
   test:
+    machine:
+      environment:
+        PATH: "~/$CIRCLE_PROJECT_REPONAME/gradle-2.9/bin:$PATH"
+        TERM: "dumb"
+        ADB_INSTALL_TIMEOUT: "10"
+        GRADLE_OPTS: '-Dorg.gradle.jvmargs="-Xmx2048m -XX:+HeapDumpOnOutOfMemoryError"'
     steps:
           # start the emulator
       - emulator -avd circleci-android24 -no-window:
